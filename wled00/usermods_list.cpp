@@ -11,6 +11,8 @@
  */
 //#include "../usermods/EXAMPLE_v2/usermod_v2_example.h"
 
+#include "../usermods/NanoLeaf_Display/usermod_nanoleaf_display.h"
+
 #ifdef USERMOD_BATTERY_STATUS_BASIC
 #include "../usermods/battery_status_basic/usermod_v2_battery_status_basic.h"
 #endif
@@ -136,6 +138,8 @@ void registerUsermods()
    * \/ \/ \/
    */
   //usermods.add(new MyExampleUsermod());
+
+  usermods.add(new NanoLeafDisplay());
 
   #ifdef USERMOD_BATTERY_STATUS_BASIC
   usermods.add(new UsermodBatteryBasic());
