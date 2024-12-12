@@ -16,8 +16,8 @@
 
 DHT dht11(DHTPIN, DHTTYPE);
 
-const int NUM_OF_SEGMENTS   = 28;   // Number of total segments the whole display contains.
-const int ADDR_LEDS_PER_SEG = 3;    // Number of addressable LEDs (ICs) per segment.
+const int NUM_OF_SEGMENTS   = 300;   // Number of total segments the whole display contains.
+const int ADDR_LEDS_PER_SEG = 1;    // Number of addressable LEDs (ICs) per segment.
 const int SEGS_PER_DIGIT    = 7;    // Number of segments that make up 1 digit.
 const int NUM_DIGITS        = 10;   // Number of digits each 7 segment digit can display, 0-9.
 const int NUM_FIRST_LEDS    = 3;    // Number of first set of 3 addressable LEDs which are only used to set colours.
